@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/et_register_ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Esra"
+            android:hint="Ad Girin"
+            app:layout_constraintBottom_toTopOf="@id/et_register_email" />
+
+        <EditText
+            android:id="@+id/et_register_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Email Girin"
+            android:text="esragungor5113@gmail.com"
+            app:layout_constraintBottom_toBottomOf="@id/et_register_sifre"
+            app:layout_constraintTop_toTopOf="@id/et_register_ad" />
+
+        <EditText
+            android:id="@+id/et_register_sifre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Şifre girin"
+            android:text="519151549819"
+            app:layout_constraintBottom_toBottomOf="@id/cb_sözlesme"
+
+            app:layout_constraintTop_toTopOf="@id/et_register_email" />
+
+        <CheckBox
+            android:id="@+id/cb_sözlesme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Sözleşmeyi onaylıyorum"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_register_kayitol"
+            app:layout_constraintTop_toTopOf="@id/et_register_sifre"
+            android:textIsSelectable="true"/>
+
+        <Button
+            android:id="@+id/btn_register_kayitol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Kayit Ol"
+            android:textColor="#eeeeee"
+
+            app:layout_constraintTop_toTopOf="@id/cb_sözlesme" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

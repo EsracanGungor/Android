@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BiletAlma</string>
+    <string name="navigation_drawer_close"></string>
+    <string name="navigation_drawer_open"></string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "895165102517",
+    "firebase_url": "https://biletalma-9a7d3.firebaseio.com",
+    "project_id": "biletalma-9a7d3",
+    "storage_bucket": "biletalma-9a7d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895165102517:android:40139ba9ffb7c258",
+        "android_client_info": {
+          "package_name": "com.esragungor.biletalma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895165102517-01thm0qvn9ehnekc2bqi62a9hrsko4tl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.esragungor.biletalma",
+            "certificate_hash": "ce518d6f8c99cb4cdeb4d4ef413b22c3d24e20ba"
+          }
+        },
+        {
+          "client_id": "895165102517-58f76o4j2u888l1f5s9bq30eb6qbire4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArIAs6DQcUXVZYKCkHsD2OpOabAtuLskQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895165102517-58f76o4j2u888l1f5s9bq30eb6qbire4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
