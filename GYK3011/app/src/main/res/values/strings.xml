@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GYK3011</string>
+    <string name="main_imageview">ImageView</string>
+    <string name="main_videoview">VideoView</string>
+</resources>
